@@ -12,3 +12,6 @@ class App < Sinatra::Base
     :favorite_food => "Green Eggs and Ham"
   }
 end
+post '/food' do
+    params.to_s
+  end
