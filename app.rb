@@ -12,4 +12,3 @@ class App < Sinatra::Base
     :favorite_food => "Green Eggs and Ham"
   }
 end
-
